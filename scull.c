@@ -296,7 +296,7 @@ static void __exit scull_exit(void)
 	unregister_chrdev_region(scull_devnum, 1);
 	printk(KERN_DEBUG "scull driver exit\n");
 }
-MODULE_AUTHOR("joker");
-MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("solitude");
+MODULE_LICENSE("GPL");
 module_init(scull_init);
 module_exit(scull_exit);
